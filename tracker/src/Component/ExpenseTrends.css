@@ -1,0 +1,13 @@
+.total{
+    color: white;
+}
+.bar{
+    background-color: white;
+    height: 250px !important;
+    border-radius: 10px;
+    gap: 20px;
+}
+.trends{
+   
+    width: 500px;
+}

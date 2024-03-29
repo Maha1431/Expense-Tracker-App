@@ -1,0 +1,81 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  background: #3b3b3b;
+  padding: 20px;
+  margin: 5px;
+}
+.header {
+  display: flex;
+  background: #626262;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+}
+.balance {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #ccc;
+  padding: 20px;
+  width: 250px;
+  height: 100px;
+  background-color: #ccc;
+  color: white;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.expensebal {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #ccc;
+  padding: 20px;
+  width: 250px;
+  height: 100px;
+  background-color: #ccc;
+  color: white;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.balbutton {
+  background: linear-gradient(90deg, #b5dc52 0%, #89e148 100%);
+  color: white;
+  border-radius: 5px;
+  border: 2px solid #9b9b9b;
+  padding: 10px;
+}
+.expensebutton {
+  background: linear-gradient(90deg, #ff9595 0%, #ff4747 80%, #ff3838 100%);
+  color: white;
+  border-radius: 5px;
+  border: 2px solid #9b9b9b;
+  padding: 10px;
+}
+
+.summary {
+  margin-bottom: 35px;
+}
+.header1 {
+  display: flex;
+  justify-content: space-between;
+}
+.h1 {
+  color: white;
+}
+.backdrop {
+  background: #ffffffc4;
+  top: 0;
+  left: 0;
+  width: 100vw ;
+  height: 100vh ;
+  z-index: 10;
+  position: fixed;
+}
+ @media screen and (min-width: 1024px){
+  .App{
+   width: 100vw;
+  }
+ }
